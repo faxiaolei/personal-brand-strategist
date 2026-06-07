@@ -80,6 +80,18 @@ The default invocation pattern is:
 Use $personal-brand-strategist to help me clarify my personal brand, positioning, channels, and messaging system.
 ```
 
+## Methodological influences
+
+This skill is not a direct adaptation of any single author or framework. It is a practical, generalized structure shaped by ideas from several books:
+
+- `Obviously Awesome` by April Dunford: positioning, differentiation, audience-fit
+- `Building a StoryBrand` by Donald Miller: clarity, messaging, explainability
+- `The Brand Gap` and `Zag` by Marty Neumeier: brand structure, strategic coherence
+- `Platform` by Michael Hyatt: platform thinking, channel roles, long-term asset building
+- `Blue Ocean Strategy` by W. Chan Kim and Renee Mauborgne: value innovation and underserved-market thinking
+
+These influences inform the skill's logic, but the skill itself is a standalone reusable framework for personal brand strategy work inside Codex.
+
 ## Notes
 
 - This is a generic skill and is not tied to any one person or profession
