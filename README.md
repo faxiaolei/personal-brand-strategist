@@ -1,75 +1,87 @@
 # Personal Brand Strategist
 
-`Personal Brand Strategist` is a reusable Codex Skill for helping someone clarify their personal brand, positioning, target audience, differentiation, content ecosystem, and external messaging system.
+`Personal Brand Strategist` is a reusable Codex Skill for clarifying personal brand strategy before downstream execution.
 
-It is designed to work across industries and roles. It does not assume any specific profession, platform, or creator type.
+It helps turn scattered experiences, strengths, goals, channels, and public-facing assets into a coherent brand system.
 
-## What this skill does
+## What this skill helps with
 
-This skill helps turn scattered experiences, strengths, goals, channels, and public-facing assets into a usable brand system.
+Use this skill when someone:
 
-It is especially useful when someone:
+- has done many things but struggles to explain who they are
+- has multiple channels, identities, or projects that feel fragmented
+- sounds vague, overpackaged, or inconsistent in public-facing materials
+- needs brand clarity before writing content, building a website, or designing assets
 
-- has done many things but cannot clearly explain who they are
-- has multiple channels or identities that feel fragmented
-- sounds overpackaged, vague, or inconsistent
-- needs a brand framework before writing content, building a site, or designing assets
-- wants reusable outputs such as a brand framework, content ecosystem plan, or external expression handbook
+## Core outcomes
+
+This skill is designed to help produce outputs such as:
+
+- a personal brand framework
+- a positioning and messaging system
+- a content ecosystem plan
+- an external expression handbook
+- a channel-role map
+- a self-introduction system
+
+## Strategic principles
+
+The skill follows a few core rules:
+
+- strategy before execution
+- evidence before adjectives
+- current truth before future aspiration
+- clarity before polish
+
+It distinguishes between:
+
+- what is already true now
+- what value the person can credibly offer now
+- what direction they are growing toward
+
+This helps prevent overclaiming while still preserving real credentials and momentum.
 
 ## Repository structure
 
 ```text
 personal-brand-strategist-github/
-├── README.md
-├── skill-en/
-│   ├── SKILL.md
-│   ├── agents/
-│   │   └── openai.yaml
-│   └── references/
-│       └── framework.md
-└── docs-zh/
-    ├── 个人品牌策略师技能说明_中文版_V1.md
-    └── 个人品牌策略框架参考_中文版_V1.md
+|- README.md
+|- README_zh.md
+|- skill-en/
+|  |- SKILL.md
+|  |- agents/
+|  |  |- openai.yaml
+|  |- references/
+|     |- framework.md
+|- docs-zh/
+   |- 个人品牌策略师技能说明_中文版_V1.md
+   |- 个人品牌策略框架参考_中文版_V1.md
 ```
 
-## English skill files
+## Main files
 
-The actual reusable Skill lives in:
+The actual reusable skill files are:
 
 - `skill-en/SKILL.md`
 - `skill-en/agents/openai.yaml`
 - `skill-en/references/framework.md`
 
-These are the files that matter if someone wants to install or reuse the Skill in Codex.
+The Chinese documents in `docs-zh/` are supporting materials for human readers.
 
-## Chinese documentation
+## How to use
 
-The Chinese documents in `docs-zh/` are supporting explanations for human readers. They explain:
+If you want to use this skill inside Codex, the main entry is:
 
-- what the skill is
-- when to use it
-- what kind of outputs it helps produce
-- the diagnostic framework behind the skill
+- `skill-en/SKILL.md`
 
-They are not required for the Skill to run, but they are useful if you want to share the method with Chinese-speaking users.
+The default invocation pattern is:
 
-## Suggested GitHub publishing approach
-
-If you want to publish this repository:
-
-1. Keep `skill-en/` as the canonical skill implementation
-2. Keep `docs-zh/` as the Chinese explanation set
-3. Use this `README.md` as the root introduction
-
-If you later want to make the project more polished, you can add:
-
-- screenshots
-- usage examples
-- a Chinese README
-- installation instructions for Codex users
+```text
+Use $personal-brand-strategist to help me clarify my personal brand, positioning, channels, and messaging system.
+```
 
 ## Notes
 
-- The skill is intentionally generic and not tied to any one person's brand
-- It is meant to help clarify strategy before downstream execution
-- It distinguishes current truth, current value, and future direction to avoid overclaiming
+- This is a generic skill and is not tied to any one person or profession
+- It is meant for upstream strategy work, not just copywriting
+- It is especially useful when a person's public image feels scattered or misaligned
