@@ -80,6 +80,18 @@ personal-brand-strategist-github/
 Use $personal-brand-strategist to help me clarify my personal brand, positioning, channels, and messaging system.
 ```
 
+## 方法参考 / 灵感来源
+
+这个 Skill 不是对某一个作者或某一套框架的直接照搬，而是在通用化和实用化过程中，吸收了几本书里的部分思路：
+
+- `《Obviously Awesome》` - April Dunford：定位、差异化、受众匹配
+- `《Building a StoryBrand》` - Donald Miller：表达清晰、信息传达、可理解性
+- `《The Brand Gap》` 与 `《Zag》` - Marty Neumeier：品牌结构、战略一致性
+- `《Platform》` - Michael Hyatt：平台思维、渠道角色、长期内容资产
+- `《Blue Ocean Strategy》` - W. Chan Kim、Renee Mauborgne：价值创新与被忽视市场的切入思路
+
+这些内容只是方法上的启发来源，不代表这个 Skill 是对任何单一本书的官方复刻。它本身是一套面向 Codex 使用场景整理出来的、可复用的个人品牌策略框架。
+
 ## 说明
 
 - 这是一个通用 Skill，不绑定某个具体人物或行业
