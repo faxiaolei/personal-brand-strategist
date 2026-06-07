@@ -1,0 +1,7 @@
+interface:
+  display_name: "Personal Brand Strategist"
+  short_description: "Clarify personal brand strategy and messaging."
+  default_prompt: "Use $personal-brand-strategist to help me clarify my personal brand, positioning, channels, and messaging system."
+
+policy:
+  allow_implicit_invocation: true
